@@ -28,12 +28,7 @@ def position_taken?(board, index)
 end
 
 def move(board, index, user)
-  if valid_move?(board, index)
     board[index] = user
-    return true
-  else
-    return false
-  end
 end
 
 def turn(board)
